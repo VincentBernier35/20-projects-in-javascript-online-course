@@ -1,0 +1,44 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, #70e1f5, #ffd194);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    font-size: 7vw;
+    margin: 20px 0px;
+}
+.mainTravailRepos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.travail, .repos{ 
+    background-color: white;
+    margin: 50px 2px 20px;
+    padding: 30px 100px;
+}
+p:first-child {
+    font-weight: bold;
+
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+button {
+    padding: 10px 30px;
+    margin: 3px;
+}
+.nbCycle {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+
+}
